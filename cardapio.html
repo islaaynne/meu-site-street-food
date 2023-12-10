@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cardápio - Street Food">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            height: 80px; /* Ajuste a altura desejada */
+        }
+
+        .navbar-brand img {
+            width: 60px; /* Ajuste a largura desejada */
+            height: auto;
+            margin-right: 10px; /* Adicionando margem à direita para separar a imagem do texto */
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand span {
+            font-size: 1.5rem; /* Ajuste o tamanho do texto conforme necessário */
+        }
+        .header {
+            background: linear-gradient(to right, rgb(6, 6, 240), black);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .menu-section {
+            margin-top: 30px;
+        }
+
+        h2 {
+            color: #32577c;
+        }
+        footer {
+            background-color: black;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark text-bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="street food.jpeg" alt="Logo" class="d-inline-block align-text-top">
+                <span class="ms-3">Street Food</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cardapio.html">Cardápio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav> 
+        <br>
+        <div class="header">
+            <h1>Cardápio da Lanchonete</h1>
+          </div>
+      
+         <!-- Entradas -->
+<div class="menu-section text-center"> <!-- Adicionando a classe text-center para centralizar o texto -->
+  <h2>Entradas</h2>
+  <div class="row justify-content-center"> <!-- Adicionando a classe justify-content-center para centralizar as colunas -->
+    <div class="col-md-5"> <!-- Ajustando a largura da coluna para 6 -->
+      <div class="card mb-3"> <!-- Adicionando a classe mb-3 para adicionar espaço na parte inferior -->
+        <img src="batatafrita3.jpg" class="comida" alt="Entrada 1">
+        <div class="card-body">
+          <h5 class="card-title">Batata Frita</h5>
+          <p class="card-text">Batata Frita PQ. 100gr<br> Com molhos saborosos.</p>
+          <p class="card-text">R$ 7,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5"> <!-- Ajustando a largura da coluna para 6 -->
+      <div class="card mb-3"> <!-- Adicionando a classe mb-3 para adicionar espaço na parte inferior -->
+        <img src="aneis de cebola.jpg" class="comida" alt="Entrada 2">
+        <div class="card-body">
+          <h5 class="card-title">Anéis de cebola</h5>
+          <p class="card-text">Mergulhados em uma massa crocante e fritos até dourar. Servidos com molhos saborosos.</p>
+          <p class="card-text">R$ 12,00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pratos Principais -->
+<div class="menu-section text-center"> <!-- Adicionando a classe text-center para centralizar o texto -->
+  <h2>Pratos Principais</h2>
+  <div class="row justify-content-center"> <!-- Adicionando a classe justify-content-center para centralizar as colunas -->
+    <div class="col-md-5"> <!-- Ajustando a largura da coluna para 6 -->
+      <div class="card mb-3"> <!-- Adicionando a classe mb-3 para adicionar espaço na parte inferior -->
+        <img src="xfrango.jpg" class="comida" alt="Entrada 1">
+        <div class="card-body">
+          <h5 class="card-title">X Frango</h5>
+          <p class="card-text">Pão, Filé de Frango, Mussarela, Presunto, Alface e Tomate<br> Com molhos saborosos.</p>
+          <p class="card-text">R$ 22,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5"> <!-- Ajustando a largura da coluna para 6 -->
+      <div class="card mb-3"> <!-- Adicionando a classe mb-3 para adicionar espaço na parte inferior -->
+        <img src="xbacon.jpg" class="comida" alt="Entrada 2">
+        <div class="card-body">
+          <h5 class="card-title">X Bacon</h5>
+          <p class="card-text">Pão, hambúrguer, mussarela, presunto, bacon alface e tomate. Servidos com molhos saborosos.</p>
+          <p class="card-text">R$ 22,00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+          </div>
+          </div>
+        </div>
+       <br>
+       <div class="container text-center mt-4">
+        <a href="cardapiocompleto.html" class="btn btn-primary">Cardápio Completo</a>
+    </div>
+<br>
+       <footer> <!-- Footer -->
+        <p>&copy;Street Food</p>
+       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html>
+  

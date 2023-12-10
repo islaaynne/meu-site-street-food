@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Street Food</title>
+    <style>
+    footer {
+            background-color: black;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+        }
+ /* Estilos personalizados para ajustar a largura e o tamanho da imagem no carrossel */
+ .carousel-item img {
+      max-width: 50%; /* Defina a largura máxima desejada */
+      max-height: 40%; /* Defina a altura máxima desejada */
+      width: auto; /* Isso garantirá que a largura seja ajustada proporcionalmente à altura */
+      height: auto; /* Isso garantirá que a altura seja ajustada proporcionalmente à largura */
+      margin: auto; /* Centralize a imagem horizontalmente */
+    }
+    /* Estilo personalizado para a seta à esquerda */
+    .carousel-control-prev-icon {
+      background-color: black; /* Cor de fundo preta */
+    }
+    /* Estilo personalizado para a seta à direita */
+    .carousel-control-next-icon {
+      background-color: black; /* Cor de fundo preta */
+    }
+        .navbar { /* Aumentar a altura da barra de navegação */
+            height: 80px; /* Ajuste a altura desejada */
+        }
+        .navbar-brand img { /* Ajustar o tamanho da imagem do logotipo */
+            width: 70px;
+            height: auto;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        header {
+            background: linear-gradient(to right, rgb(6, 6, 240), black);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header2 {
+          background: linear-gradient(to right, black, blue); /* Cor de fundo do header */
+            color: #fff; /* Cor do texto do header */
+            padding: 20px; /* Espaçamento interno do header */
+            text-align: center; /* Alinhamento do texto no centro */
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .col-lg-6 {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .container {
+            margin-top: 50px; /* Margem superior para afastar do cabeçalho */
+        }
+        /* Adicione a URL da fonte desejada do Google Fonts no link abaixo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark">
+    <div class="container-fluid text-center">
+        <a class="navbar-brand" href="index.html">
+            <img src="street food.jpeg" alt="Logo" width="45" height="40" class="d-inline-block align-text-top">
+            <span class="ms-3">Street Food</span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cardapio.html">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+    <!-- Jumbotron -->
+    <header>
+      <div class="jumbotron text-center">
+          <h1 class="display-4">Bem-vindo à nossa Lanchonete</h1>
+          <p class="lead">Deliciosos lanches para satisfazer seu paladar.</p>
+          <a class="btn btn-primary btn-lg" href="cardapio.html" role="button">Ver Cardápio</a>
+      </div>
+  </header>
+    <br>
+    <br>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="hambúrguer e batat3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="hambúrguer e batata1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="hambúrguer3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+            <br>
+            <br>
+            <div class="header2">
+              <h1>Quem Somos</h1>
+          </div>
+      
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <img src="lanchonete.jpg" alt="Imagem da Lanchonete" class="img-fluid">
+                  </div>
+                  <div class="col-lg-6">
+                      <h2>Nossa História</h2>
+                      <p>A "Street Food" começou em 2015 como um modesto food truck, fundado por um grupo de amigos apaixonados por gastronomia. Inspirados pelo conceito de "street food", destacaram-se oferecendo opções deliciosas e acessíveis, com ingredientes frescos e locais. Com o compromisso com a qualidade e atendimento ao cliente, a lanchonete expandiu para um espaço fixo, tornando-se um ponto de referência para fast food na região. Envolvida em iniciativas comunitárias e sustentáveis, a "Street Food" continua a evoluir, mantendo a paixão pela boa comida, inovação e conexão com a comunidade.</p>
+                      <h2>Nossa Missão</h2>
+                      <p>A "Street Food" oferece um ambiente acolhedor e descontraído, com um design moderno para uma experiência agradável. Nossa missão é proporcionar fast food inovador e acessível, utilizando ingredientes frescos. Além de satisfazer paladares, comprometemo-nos com iniciativas comunitárias e sustentáveis, buscando ser mais do que uma lanchonete. Queremos criar momentos memoráveis e ser um membro ativo e positivo da comunidade, contribuindo para causas locais. Na "Street Food", nossa missão vai além da comida rápida; é criar uma conexão duradoura e apoiar a comunidade.</p>
+                  </div>
+              </div>
+          </div>
+    <footer> <!-- Footer -->
+        <p>&copy;Street Food</p>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
